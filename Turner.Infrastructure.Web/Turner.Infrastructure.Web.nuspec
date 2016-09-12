@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Turner.Infrastructure.Web</id>
+    <version>1.0.0</version>
+    <authors>Turner Industries Group, LLC</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Turner.Infrastructure.Web contains Turner Industries Group's common web architecture.</description>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Turner.Infrastructure.Web.dll" target="lib" />
+  </files>
+</package>
